@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hamburger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+    <h1 class="main__title">Гамбургерная</h1>
+    <form action="#" class="mainForm">
+        <fieldset class="mainForm__size">
+            <legend class="mainForm__title">Выберите размер гамбургера: </legend>
+            <select name="sizeHamb" class="mainForm__select">
+                <option value=""></option>
+                <option value="big">Большой, 100руб, 40кал</option>
+                <option value="small">Маленький, 50руб, 20кал</option>
+            </select>
+        </fieldset>
+        <fieldset class="mainForm__stuffing">
+            <legend class="mainForm__title">Выберите начинку гамбургера: </legend>
+        <select name="stuffingHamb" class="mainForm__select">
+            <option value=""></option>
+            <option value="cheese">С сыром, </option>
+            <option value="salad">С салатом</option>
+            <option value="potato">С картофелем</option>
+        </select>
+        </fieldset>
+        <fieldset class="mainForm__topping">
+        <legend class="mainForm__title">Выберите дополнительные ингридиенты:</legend>
+            <label for="seasoning"><input type="checkbox" id="seasoning">Посыпать приправой</label>
+            <label for="mayonnaise"><input type="checkbox" id="mayonnaise">Полить майонезом</label>
+        </fieldset>
+        <button class="mainForm__btn">Расчитать стоимость и каллории</button>
+    </form>
+    <section class="total">
+        <h4 class="total__callory">Всего каллорий 550 кКал</h4>
+        <h4 class="total__price">Стоимость гамбургера 550 руб</h4>
+    </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #ccc;
+  font: 24px "Monotype Corsiva", sans-serif;
+  padding: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__title {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.mainForm {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.mainForm__size,
+.mainForm__stuffing {
+  width: 300px;
+  border: 2px solid #000;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+}
+.mainForm__title {
+  font-weight: bold;
+}
+.mainForm__select {
+  font: 20px "Monotype Corsiva", sans-serif;
+  height: 40px;
+}
+.mainForm__topping {
+  width: 420px;
+  border: 2px solid #000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.mainForm__btn {
+  font: 24px "Monotype Corsiva", sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
