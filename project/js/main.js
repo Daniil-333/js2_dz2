@@ -9,6 +9,12 @@ class Products {
         this._render();
     }
 
+    totalSumPrice() {
+        this.data.reduce(function (accumPrice, currentValue) {
+            return accumPrice+currentValue.price;
+        }, 0)
+    }
+
     _fetchData() {
         this.data = [
             { title: 'Notebook', id: 1, price: 2000 },
@@ -79,7 +85,6 @@ class CartItem {
 }
 
 const list = new Products('.products');
-
 
 
 
