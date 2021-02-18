@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 .main__title {
   font-size: 48px;
@@ -49,7 +50,8 @@ body {
   flex-direction: column;
   margin-bottom: 30px;
 }
-.mainForm__btn {
+.mainForm__btn-cal,
+.mainForm__btn-cost {
   font: 24px "Monotype Corsiva", sans-serif;
   padding: 10px;
   cursor: pointer;

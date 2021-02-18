@@ -13,29 +13,30 @@
             <legend class="mainForm__title">Выберите размер гамбургера: </legend>
             <select name="sizeHamb" class="mainForm__select">
                 <option value=""></option>
-                <option value="big">Большой, 100руб, 40кал</option>
-                <option value="small">Маленький, 50руб, 20кал</option>
+                <option value="big">Большой, 100руб, 40калл</option>
+                <option value="small">Маленький, 50руб, 20калл</option>
             </select>
         </fieldset>
         <fieldset class="mainForm__stuffing">
             <legend class="mainForm__title">Выберите начинку гамбургера: </legend>
         <select name="stuffingHamb" class="mainForm__select">
             <option value=""></option>
-            <option value="cheese">С сыром, </option>
-            <option value="salad">С салатом</option>
-            <option value="potato">С картофелем</option>
+            <option value="cheese">С сыром, +10руб, +20калл</option>
+            <option value="salad">С салатом, +20руб, +5калл</option>
+            <option value="potato">С картофелем, +15руб, +10калл</option>
         </select>
         </fieldset>
         <fieldset class="mainForm__topping">
         <legend class="mainForm__title">Выберите дополнительные ингридиенты:</legend>
-            <label for="seasoning"><input type="checkbox" id="seasoning">Посыпать приправой</label>
-            <label for="mayonnaise"><input type="checkbox" id="mayonnaise">Полить майонезом</label>
+            <label for="seasoning"><input type="checkbox" id="seasoning">Посыпать приправой, +15руб, +0калл</label>
+            <label for="mayonnaise"><input type="checkbox" id="mayonnaise">Полить майонезом, +20руб, +5калл</label>
         </fieldset>
-        <button class="mainForm__btn">Расчитать стоимость и каллории</button>
+        <button class="mainForm__btn-cal">Рассчитать каллории</button>
+        <button class="mainForm__btn-cost">Рассчитать стоимость</button>
     </form>
     <section class="total">
-        <h4 class="total__callory">Всего каллорий 550 кКал</h4>
-        <h4 class="total__price">Стоимость гамбургера 550 руб</h4>
+        <h4 class="total__callory"></h4>
+        <h4 class="total__price"></h4>
     </section>
 </main>
 <script src="app.js"></script>
