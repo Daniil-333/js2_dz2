@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hamburger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+    <h1 class="main__title">Гамбургерная</h1>
+    <form action="#" class="mainForm">
+        <fieldset class="mainForm__size">
+            <legend class="mainForm__title">Выберите размер гамбургера: </legend>
+            <select name="sizeHamb" class="mainForm__select">
+                <option value=""></option>
+                <option value="big">Большой, 100руб, 40калл</option>
+                <option value="small">Маленький, 50руб, 20калл</option>
+            </select>
+        </fieldset>
+        <fieldset class="mainForm__stuffing">
+            <legend class="mainForm__title">Выберите начинку гамбургера: </legend>
+        <select name="stuffingHamb" class="mainForm__select">
+            <option value=""></option>
+            <option value="cheese">С сыром, +10руб, +20калл</option>
+            <option value="salad">С салатом, +20руб, +5калл</option>
+            <option value="potato">С картофелем, +15руб, +10калл</option>
+        </select>
+        </fieldset>
+        <fieldset class="mainForm__topping">
+        <legend class="mainForm__title">Выберите дополнительные ингридиенты:</legend>
+            <label for="seasoning"><input type="checkbox" id="seasoning">Посыпать приправой, +15руб, +0калл</label>
+            <label for="mayonnaise"><input type="checkbox" id="mayonnaise">Полить майонезом, +20руб, +5калл</label>
+        </fieldset>
+        <button class="mainForm__btn-cost">Рассчитать стоимость и каллории</button>
+    </form>
+    <section class="total">
+        <h4 class="total__callory"></h4>
+        <h4 class="total__price"></h4>
+    </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
