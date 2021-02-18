@@ -50,7 +50,6 @@ body {
   flex-direction: column;
   margin-bottom: 30px;
 }
-.mainForm__btn-cal,
 .mainForm__btn-cost {
   font: 24px "Monotype Corsiva", sans-serif;
   padding: 10px;
